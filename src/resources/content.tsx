@@ -34,6 +34,12 @@ const social: Social = [
     link: `mailto:${person.email}`,
     essential: true,
   },
+  {
+    name: "Facebook",
+    icon: "Facebook",
+    link: "https://www.facebook.com/devindabest/",
+    essential: true,
+  },
 ];
 
 const home: Home = {
