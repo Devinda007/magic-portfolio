@@ -287,7 +287,47 @@ export default function About() {
               </Column>
             </>
           )}
+          {aboutData.certifications?.display && (
+    <>
+    <Heading
+      as="h2"
+      id={aboutData.certifications.title}
+      variant="display-strong-s"
+      marginTop="40"
+      marginBottom="m"
+    >
+      {aboutData.certifications.title}
+    </Heading>
 
+    <Column as="ul" gap="16" marginBottom="40">
+      {aboutData.certifications.items.map(
+        (cert: any, index: number) => (
+          <Text
+            as="li"
+            key={`${cert.name}-${index}`}
+            variant="body-default-m"
+          >
+            <strong>{cert.name}</strong> – {cert.issuer}
+            {cert.link && (
+              <>
+                {" "}
+                •{" "}
+                <a
+                  href={cert.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "var(--brand-strong)" }}
+                >
+                  View Certificate
+                </a>
+              </>
+            )}
+          </Text>
+        )
+      )}
+    </Column>
+  </>
+)}
           {about.technical.display && (
             <>
               <Heading
@@ -343,47 +383,7 @@ export default function About() {
             </>
           )}
 
-          {aboutData.certifications?.display && (
-  <>
-    <Heading
-      as="h2"
-      id={aboutData.certifications.title}
-      variant="display-strong-s"
-      marginTop="40"
-      marginBottom="m"
-    >
-      {aboutData.certifications.title}
-    </Heading>
-
-    <Column as="ul" gap="16" marginBottom="40">
-      {aboutData.certifications.items.map(
-        (cert: any, index: number) => (
-          <Text
-            as="li"
-            key={`${cert.name}-${index}`}
-            variant="body-default-m"
-          >
-            <strong>{cert.name}</strong> – {cert.issuer}
-            {cert.link && (
-              <>
-                {" "}
-                •{" "}
-                <a
-                  href={cert.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ color: "var(--brand-strong)" }}
-                >
-                  View Certificate
-                </a>
-              </>
-            )}
-          </Text>
-        )
-      )}
-    </Column>
-  </>
-)}
+    
         </Column>
       </Row>
     </Column>
