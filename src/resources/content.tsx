@@ -36,7 +36,7 @@ const social: Social = [
   },
   {
     name: "Facebook",
-    icon: "Facebook",
+    icon: "facebook",
     link: "https://www.facebook.com/devindabest/",
     essential: true,
   },
