@@ -255,9 +255,7 @@ const about: About = {
     skills: [
       {
         title: "AWS/Azure",
-        description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
-        ),
+        
         tags: [
           {
             name: "Docker",
