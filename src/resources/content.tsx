@@ -255,15 +255,15 @@ const about: About = {
     display: true, // set to false to hide this section
     title: "Tools And Technologies",
     skills: [
-      
-        
-        tags: [
-          {
-            name: "AWS",
-            icon: "aws",
-          },
-        ],
-      
+      {
+    title: "AWS",
+    tags: [
+      {
+        name: "AWS",
+        icon: "aws",
+      },
+    ],
+  },
       {
         title: "Docker",
         tags: [
