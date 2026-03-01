@@ -108,8 +108,8 @@ const about: About = {
             streamlining practices for improved efficiency
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Provided product presentations and technical support on SMS and WhatsApp for business solutions, enhancing client understanding and
+            satisfaction.
           </>,
         ],
         images: [
