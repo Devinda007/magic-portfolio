@@ -84,9 +84,13 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Devinda is a Systems Engineer with strong expertise in Linux administration, cloud infrastructure, and
+        containerization. Experienced in configuring, upgrading, maintaining, and monitoring scalable cloud
+        environments to ensure optimal performance and security. Skilled in AWS, DevOps practices, and
+        configuration management, with a track record of collaborating effectively with local and
+        international teams. Dedicated to continuous improvement and leveraging cloud technologies to
+        deliver secure, high-availability, and cost-optimized solutions. Seeking an opportunity to design,
+        implement, and optimize resilient production systems.
       </>
     ),
   },
@@ -95,13 +99,13 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Textware Pvt Ltd",
+        timeframe: "December 2023 - Present",
+        role: "Associate Systems Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Optimized internal operations by automating manual processes with Bash/Python Scripting and
+            streamlining practices for improved efficiency
           </>,
           <>
             Spearheaded the integration of AI tools into design workflows, enabling designers to
