@@ -64,6 +64,7 @@ export const iconLibrary: Record<string, IconType> = {
   reddit: FaReddit,
   telegram: FaTelegram,
   instagram: FaInstagram,
+  docker: FaDocker,
 };
 
 export type IconLibrary = typeof iconLibrary;
