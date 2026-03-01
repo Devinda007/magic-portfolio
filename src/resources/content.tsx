@@ -301,17 +301,12 @@ const about: About = {
         ],
       },
       {
-        title: "Grafana",
+        title: "Grafana & Prometheus",
         tags: [
           {
             name: "Grafana",
             icon: "grafana",
           },
-        ],
-      },
-      {
-        title: "Prometheus",
-        tags: [
           {
             name: "Prometheus",
             icon: "prometheus",
@@ -319,68 +314,32 @@ const about: About = {
         ],
       },
       {
-        title: "Docker",
+        title: "Containerization and Orchestration",
+        description: (
+          <>Using containers to build and scale applications</>
+        ),
         tags: [
           {
             name: "Docker",
             icon: "docker",
           },
-        ],
-      },
-      {
-        title: "Ansible",
-        tags: [
           {
-            name: "Ansible",
-            icon: "ansible",
-          },
+            name: "Kubernetes",
+            icon: "kubernetes",
+          }
         ],
       },
       {
-        title: "Terraform",
+        title: "Infrastructure provisioning & configuration",
         tags: [
           {
             name: "Terraform",
             icon: "terraform",
           },
-        ],
-      },
-      {
-        title: "Kubernetes",
-        tags: [
           {
-            name: "Kubernetes",
-            icon: "kubernetes",
-          },
-        ],
-      },
-      {
-        title: "Next.js",
-        description: (
-          <>Building</>
-        ),
-        tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+            name: "Ansible",
+            icon: "ansible",
+          }
         ],
       },
     ],
