@@ -75,6 +75,7 @@ export const iconLibrary: Record<string, IconType> = {
   telegram: FaTelegram,
   instagram: FaInstagram,
   docker: FaDocker,
+  aws: FaAws,
   azure: VscAzure,
 };
 
