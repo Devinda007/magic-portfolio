@@ -23,27 +23,9 @@ const social: Social = [
   // Import new icons in /once-ui/icons.ts
   // Set essentials: true for links you want to show on the about page
   {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/once-ui-system",
-    essential: true,
-  },
-  {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-    essential: true,
-  },
-  {
-    name: "Instagram",
-    icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
-    essential: false,
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.linkedin.com/in/devinda-thoradeniya-294569195/",
     essential: true,
   },
   {
