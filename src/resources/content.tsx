@@ -234,12 +234,12 @@ const about: About = {
       },
       {
         name: "Ansible for the Absolute Beginner - Hands-On - DevOps",
-        issuer: "Udemy",
+        issuer: "Kodekloud/Udemy",
         link: "https://udemy-certificate.s3.amazonaws.com/image/UC-e9ccf3aa-a29b-4404-8ffc-be36e8b12d56.jpg",
       },
       {
         name: "Kubernetes for the Absolute Beginners - Hands-on",
-        issuer: "Udemy",
+        issuer: "Kodekloud/Udemy",
         link: "https://udemy-certificate.s3.amazonaws.com/image/UC-fa1ecde4-103f-49b6-bf21-326466c6d42b.jpg",
       },
       {
