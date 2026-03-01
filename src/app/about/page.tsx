@@ -340,23 +340,6 @@ export default function About() {
               </Column>
             </>
           )}
-          {about.technical.display && (
-  <>
-    <Heading
-      as="h2"
-      id={about.technical.title}
-      variant="display-strong-s"
-      marginBottom="40"
-    >
-      {about.technical.title}
-    </Heading>
-    <Column fillWidth gap="l">
-      {about.technical.skills.map((skill, index) => (
-        ...
-      ))}
-    </Column>
-  </>
-)}
         </Column>
       </Row>
     </Column>
