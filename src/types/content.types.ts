@@ -222,7 +222,7 @@ export interface About extends BasePageConfig {
       /** Issuer of certification */
       issuer: string;
       /** Verification / details link */
-      link: string;
+      link?: string;
     }>;
   };
 }
