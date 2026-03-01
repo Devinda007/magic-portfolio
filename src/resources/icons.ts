@@ -30,13 +30,19 @@ import {
   SiKubernetes,
   SiTerraform,
   SiAnsible,
+  SiGrafana,
+  SiPrometheus,
 } from "react-icons/si";
 
 import {
   VscAzure,
 } from "react-icons/vsc";
 
-import { FaAws, FaDocker, FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
+import {
+  FcLinux,
+} from "react-icons/fc";
+
+import { FaJenkins, FaGitAlt, FaAws, FaDocker, FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
@@ -77,6 +83,11 @@ export const iconLibrary: Record<string, IconType> = {
   docker: FaDocker,
   aws: FaAws,
   azure: VscAzure,
+  linux: FcLinux,
+  jenkins: FaJenkins,
+  git: FaGitAlt,
+  grafana: SiGrafana,
+  prometheus: SiPrometheus,
 };
 
 export type IconLibrary = typeof iconLibrary;
