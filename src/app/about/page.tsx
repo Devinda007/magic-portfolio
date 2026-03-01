@@ -344,47 +344,43 @@ export default function About() {
           )}
 
           {aboutData.certifications?.display && (
-       <>
-       <Heading
-          as="h2"
-          id={aboutData.certifications.title}
-          variant="display-strong-s"
-          marginTop="40"
-          marginBottom="40"
-      >
-  {aboutData.certifications.title}
-</Heading>
+  <>
+    <Heading
+      as="h2"
+      id={aboutData.certifications.title}
+      variant="display-strong-s"
+      marginTop="40"
+      marginBottom="m"
+    >
+      {aboutData.certifications.title}
+    </Heading>
 
-    <Column fillWidth gap="l" marginBottom="40">
-      {aboutData.certifications.items.map((cert: any, index: number) => (
-        <Row
-          key={`${cert.name}-${index}`}
-          fillWidth
-          horizontal="between"
-          vertical="center"
-          paddingY="12"
-          borderBottom="neutral-alpha-weak"
-        >
-          <Column gap="4">
-            <Text id={cert.name} variant="heading-strong-m">
-              {cert.name}
-            </Text>
-            <Text variant="body-default-s" onBackground="neutral-weak">
-              {cert.issuer}
-            </Text>
-          </Column>
-
-          {cert.link && (
-        <Button
-          href={cert.link}
-          target="_blank"
-          label="Link"
-          variant="secondary"
-          size="s"
-        />
+    <Column as="ul" gap="16" marginBottom="40">
+      {aboutData.certifications.items.map(
+        (cert: any, index: number) => (
+          <Text
+            as="li"
+            key={`${cert.name}-${index}`}
+            variant="body-default-m"
+          >
+            <strong>{cert.name}</strong> – {cert.issuer}
+            {cert.link && (
+              <>
+                {" "}
+                •{" "}
+                <a
+                  href={cert.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "var(--brand-strong)" }}
+                >
+                  View Certificate
+                </a>
+              </>
+            )}
+          </Text>
+        )
       )}
-        </Row>
-      ))}
     </Column>
   </>
 )}
