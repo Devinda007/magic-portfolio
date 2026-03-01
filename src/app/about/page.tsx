@@ -343,16 +343,16 @@ export default function About() {
           )}
 
           {aboutData.certifications?.display && (
-  <>
-    <Heading
-      as="h2"
-      id={about.certifications.title}
-      variant="display-strong-s"
-      marginTop="40"
-      marginBottom="40"
-    >
-      {about.certifications.title}
-    </Heading>
+       <>
+       <Heading
+          as="h2"
+          id={aboutData.certifications.title}
+          variant="display-strong-s"
+          marginTop="40"
+          marginBottom="40"
+      >
+  {aboutData.certifications.title}
+</Heading>
 
     <Column fillWidth gap="l" marginBottom="40">
       {aboutData.certifications.items.map((cert: any, index: number) => (
