@@ -104,12 +104,26 @@ const about: About = {
         role: "Associate Systems Engineer",
         achievements: [
           <>
-            Optimized internal operations by automating manual processes with Bash/Python Scripting and
-            streamlining practices for improved efficiency
+            Linux Server monitoring, configuring, upgrading and administration.
           </>,
           <>
-            Provided product presentations and technical support on SMS and WhatsApp for business solutions, enhancing client understanding and
+            Docker container administration, including container lifecycle management, log monitoring, troubleshooting and performance optimization.
+          </>,
+          <>
+            Provided product presentations and technical support, enhancing client understanding and
             satisfaction.
+          </>,
+          <>
+            Provided technical expertise and troubleshooting for WhatsApp API integration for local and
+            international clients.
+          </>,
+          <>
+            Provided technical expertise and troubleshooting for SMS API integration for local and
+            international clients.
+          </>,
+          <>
+            Optimized internal operations by automating manual processes with Bash/Python Scripting and
+            streamlining practices for improved efficiency.
           </>,
         ],
         images: [
@@ -123,9 +137,9 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Finetech Consultancy Pvt Ltd",
+        timeframe: "October 2022 - March 2023",
+        role: "Trainee Cloud Engineer",
         achievements: [
           <>
             Developed a design system that unified the brand across multiple platforms, improving
