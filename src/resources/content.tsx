@@ -259,7 +259,7 @@ const about: About = {
         tags: [
           {
             name: "Docker",
-            icon: "Docker",
+            icon: "FaDocker",
           },
         ],
         // optional: leave the array empty if you don't want to display images
