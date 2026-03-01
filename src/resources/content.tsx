@@ -265,6 +265,60 @@ const about: About = {
         ],
       },
       {
+        title: "Azure",
+        tags: [
+          {
+            name: "Azure",
+            icon: "azure",
+          },
+        ],
+      },
+      {
+        title: "Linux",
+        tags: [
+          {
+            name: "Linux",
+            icon: "linux",
+          },
+        ],
+      },
+      {
+        title: "Jenkins",
+        tags: [
+          {
+            name: "Jenkins",
+            icon: "jenkins",
+          },
+        ],
+      },
+      {
+        title: "Git",
+        tags: [
+          {
+            name: "Git",
+            icon: "git",
+          },
+        ],
+      },
+      {
+        title: "Grafana",
+        tags: [
+          {
+            name: "Grafana",
+            icon: "grafana",
+          },
+        ],
+      },
+      {
+        title: "Prometheus",
+        tags: [
+          {
+            name: "Prometheus",
+            icon: "prometheus",
+          },
+        ],
+      },
+      {
         title: "Docker",
         tags: [
           {
