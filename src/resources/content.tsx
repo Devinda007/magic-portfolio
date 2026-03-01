@@ -209,14 +209,14 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "AWS/Azure",
         description: (
           <>Able to prototype in Figma with Once UI with unnatural speed.</>
         ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
+            name: "Docker",
+            icon: "Docker",
           },
         ],
         // optional: leave the array empty if you don't want to display images
