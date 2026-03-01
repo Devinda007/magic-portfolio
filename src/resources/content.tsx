@@ -274,6 +274,33 @@ const about: About = {
         ],
       },
       {
+        title: "Ansible",
+        tags: [
+          {
+            name: "Ansible",
+            icon: "ansible",
+          },
+        ],
+      },
+      {
+        title: "Terraform",
+        tags: [
+          {
+            name: "Terraform",
+            icon: "terraform",
+          },
+        ],
+      },
+      {
+        title: "Kubernetes",
+        tags: [
+          {
+            name: "Kubernetes",
+            icon: "kubernetes",
+          },
+        ],
+      },
+      {
         title: "Next.js",
         description: (
           <>Building</>
