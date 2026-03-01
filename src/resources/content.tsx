@@ -272,7 +272,7 @@ const about: About = {
             icon: "docker",
           },
         ],
-      }
+      },
       {
         title: "Next.js",
         description: (
