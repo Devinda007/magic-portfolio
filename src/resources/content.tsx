@@ -256,16 +256,16 @@ const about: About = {
     title: "Tools And Technologies",
     skills: [
       {
-        title: "AWS/Azure",
+        title: "AWS",
         tags: [
           {
-            name: "Docker",
-            icon: "docker",
+            name: "AWS",
+            icon: "aws",
           },
         ],
       },
       {
-        title: "AWS/Azure",
+        title: "Docker",
         tags: [
           {
             name: "Docker",
@@ -276,7 +276,7 @@ const about: About = {
       {
         title: "Next.js",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Building</>
         ),
         tags: [
           {
