@@ -27,6 +27,8 @@ import {
   SiNextdotjs,
   SiFigma,
   SiSupabase,
+  SiKubernetes,
+  SiTerraform,
 } from "react-icons/si";
 
 import { FaDocker, FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
@@ -58,6 +60,8 @@ export const iconLibrary: Record<string, IconType> = {
   nextjs: SiNextdotjs,
   supabase: SiSupabase,
   figma: SiFigma,
+  terraform: SiTerraform,
+  kubernetes: SiKubernetes,
   facebook: FaFacebook,
   pinterest: FaPinterest,
   whatsapp: FaWhatsapp,
