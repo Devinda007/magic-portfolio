@@ -265,6 +265,15 @@ const about: About = {
         ],
       },
       {
+        title: "AWS/Azure",
+        tags: [
+          {
+            name: "Docker",
+            icon: "docker",
+          },
+        ],
+      }
+      {
         title: "Next.js",
         description: (
           <>Building next gen apps with Next.js + Once UI + Supabase.</>
