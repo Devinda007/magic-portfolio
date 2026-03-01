@@ -142,12 +142,21 @@ const about: About = {
         role: "Trainee Cloud Engineer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Collaborated with Sales Engineers to ensure client objectives were met through accurate
+            business requirement documentation.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Google Workspace administration.
+          </>,
+          <>
+            Provided no-code support and development (AppSheet).
+          </>,
+          <>
+            Provided Google Maps API technical support.
+          </>,
+          <>
+            Provided Google Workspace and AppSheet support for the Sri Lanka Tourism Development
+            Authority (SLTDA).
           </>,
         ],
         images: [],
