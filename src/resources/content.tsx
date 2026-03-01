@@ -210,6 +210,27 @@ const about: About = {
       },
     ],
   },
+  certifications: {
+  display: true,
+  title: "Certifications",
+  items: [
+    {
+      name: "Microsoft Azure AZ-900",
+      issuer: "Microsoft",
+      link: "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/",
+    },
+    {
+      name: "Google Cloud Associate (Preparation)",
+      issuer: "Google",
+      link: "https://cloud.google.com/certification",
+    },
+    {
+      name: "GCP Cloud Architect",
+      issuer: "Google",
+      link: "https://cloud.google.com/certification/cloud-architect",
+    },
+  ],
+},
   technical: {
     display: true, // set to false to hide this section
     title: "Technical skills",
