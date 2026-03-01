@@ -260,7 +260,7 @@ const about: About = {
         tags: [
           {
             name: "Docker",
-            icon: "FaDocker",
+            icon: "docker",
           },
         ],
       },
