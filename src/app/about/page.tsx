@@ -53,8 +53,9 @@ export default function About() {
     {
       title: aboutData.certifications?.title ?? "Certifications",
       display: aboutData.certifications?.display ?? false,
-      items: aboutData.certifications?.items?.map((cert: any) => cert.name) ?? [],
-    },
+      items:
+        aboutData.certifications?.items?.map((cert: any) => cert.name) ?? [],
+  },
   ];
   return (
     <Column maxWidth="m">
