@@ -163,6 +163,40 @@ const about: About = {
       },
     ],
   },
+  {
+        company: "SINGER Finance (Lanka) PLC",
+        timeframe: "January 2022 - July 2022",
+        role: "IT Assistant - Contract",
+        achievements: [
+          <>
+            Windows server and Microsoft Active Directory administration.
+          </>,
+          <>
+            Hosted informative webinars focusing on security procedures for company employees.
+          </>,
+          <>
+            Maintain and upgrade the On-premise Servers.
+          </>,
+          <>
+            Monitor the server backups, performance, and report daily.
+          </>,
+          <>
+            Provide support for the development and implementation of new policies and procedures.
+          </>,
+          <>
+            Work with end-users to identify and deliver the required system service levels.
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/cover-01.jpg",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
   studies: {
     display: true, // set to false to hide this section
     title: "Studies",
