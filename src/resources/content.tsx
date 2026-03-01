@@ -48,7 +48,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between coding and operations</>,
+  headline: <>Building bridges between development and operations</>,
   featured: {
     display: true,
     title: (
@@ -64,7 +64,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Devinda, a <Text as="span" size="xl" weight="strong">Systems Engineer</Text> specializing in Linux and cloud infrastructure. I’m passionate about DevOps, automation, and building reliable systems. After hours, I sharpen my skills through hands-on labs and personal projects.
 </>
   ),
 };
