@@ -32,7 +32,11 @@ import {
   SiAnsible,
 } from "react-icons/si";
 
-import { FaDocker, FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
+import {
+  VscAzure,
+} from "react-icons/vsc";
+
+import { FaAws, FaDocker, FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
@@ -71,6 +75,7 @@ export const iconLibrary: Record<string, IconType> = {
   telegram: FaTelegram,
   instagram: FaInstagram,
   docker: FaDocker,
+  azure: VscAzure,
 };
 
 export type IconLibrary = typeof iconLibrary;
