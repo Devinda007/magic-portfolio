@@ -340,6 +340,50 @@ export default function About() {
               </Column>
             </>
           )}
+
+          {about.certifications?.display && (
+  <>
+    <Heading
+      as="h2"
+      id={about.certifications.title}
+      variant="display-strong-s"
+      marginTop="40"
+      marginBottom="40"
+    >
+      {about.certifications.title}
+    </Heading>
+
+    <Column fillWidth gap="l" marginBottom="40">
+      {about.certifications.items.map((cert, index) => (
+        <Row
+          key={`${cert.name}-${index}`}
+          fillWidth
+          horizontal="between"
+          vertical="center"
+          paddingY="12"
+          borderBottom="neutral-alpha-weak"
+        >
+          <Column gap="4">
+            <Text id={cert.name} variant="heading-strong-m">
+              {cert.name}
+            </Text>
+            <Text variant="body-default-s" onBackground="neutral-weak">
+              {cert.issuer}
+            </Text>
+          </Column>
+
+          <Button
+            href={cert.link}
+            target="_blank"
+            label="Link"
+            variant="secondary"
+            size="s"
+          />
+        </Row>
+      ))}
+    </Column>
+  </>
+)}
         </Column>
       </Row>
     </Column>
