@@ -202,12 +202,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of Plymouth",
+        description: <>Bachelor’s degree in Computer Security</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Dharmapala College - Pannipitiya",
+        description: <>Advanced Level</>,
       },
     ],
   },
