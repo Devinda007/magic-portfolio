@@ -256,7 +256,7 @@ const about: About = {
     title: "Tools And Technologies",
     skills: [
       {
-        title: "AWS",
+        
         tags: [
           {
             name: "AWS",
