@@ -211,44 +211,44 @@ const about: About = {
     ],
   },
   certifications: {
-  display: true,
-  title: "Certifications",
-  items: [
-    {
-      name: "AWS Certified Solutions Architect - Associate (In Progress)",
-      issuer: "AWS",
-    },
-    {
-      name: "Google Certified Professional Cloud Architect (Expired)",
-      issuer: "Google",
-    },
-    {
-      name: "Azure Fundamentals AZ - 900",
-      issuer: "Microsoft",
-      link: "https://www.credly.com/badges/d867eed7-9ab6-4b7c-9bbc-28e7f339205b",
-    },
-    {
-      name: "Docker Training Course for the Absolute Beginner",
-      issuer: "Kodekloud",
-      link: "https://learn.kodekloud.com/certificate/db1910aa-3d2a-404f-9311-33e0b333053f",
-    },
-    {
-      name: "Ansible for the Absolute Beginner - Hands-On - DevOps",
-      issuer: "Udemy",
-      link: "https://udemy-certificate.s3.amazonaws.com/image/UC-e9ccf3aa-a29b-4404-8ffc-be36e8b12d56.jpg",
-    },
-    {
-      name: "Kubernetes for the Absolute Beginners - Hands-on",
-      issuer: "Udemy",
-      link: "https://udemy-certificate.s3.amazonaws.com/image/UC-fa1ecde4-103f-49b6-bf21-326466c6d42b.jpg",
-    },
-    {
-      name: "Learn Bash Scripting Course",
-      issuer: "Codeacademy",
-      link: "https://www.codecademy.com/profiles/DevindaThoradeniya/certificates/37c55263a9f1b1f7603f7551c293ecbd",
-    },
-  ],
-},
+    display: true,
+    title: "Certifications",
+    items: [
+      {
+        name: "AWS Certified Solutions Architect - Associate (In Progress)",
+        issuer: "AWS",
+      },
+      {
+        name: "Google Certified Professional Cloud Architect (Expired)",
+        issuer: "Google",
+      },
+      {
+        name: "Azure Fundamentals AZ - 900",
+        issuer: "Microsoft",
+        link: "https://www.credly.com/badges/d867eed7-9ab6-4b7c-9bbc-28e7f339205b",
+      },
+      {
+        name: "Docker Training Course for the Absolute Beginner",
+        issuer: "Kodekloud",
+        link: "https://learn.kodekloud.com/certificate/db1910aa-3d2a-404f-9311-33e0b333053f",
+      },
+      {
+        name: "Ansible for the Absolute Beginner - Hands-On - DevOps",
+        issuer: "Udemy",
+        link: "https://udemy-certificate.s3.amazonaws.com/image/UC-e9ccf3aa-a29b-4404-8ffc-be36e8b12d56.jpg",
+      },
+      {
+        name: "Kubernetes for the Absolute Beginners - Hands-on",
+        issuer: "Udemy",
+        link: "https://udemy-certificate.s3.amazonaws.com/image/UC-fa1ecde4-103f-49b6-bf21-326466c6d42b.jpg",
+      },
+      {
+        name: "Learn Bash Scripting Course",
+        issuer: "Codeacademy",
+        link: "https://www.codecademy.com/profiles/DevindaThoradeniya/certificates/37c55263a9f1b1f7603f7551c293ecbd",
+      },
+    ],
+  },
   technical: {
     display: true, // set to false to hide this section
     title: "Technical skills",
