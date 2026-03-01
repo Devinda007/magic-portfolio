@@ -255,7 +255,7 @@ const about: About = {
     display: true, // set to false to hide this section
     title: "Tools And Technologies",
     skills: [
-      {
+      
         
         tags: [
           {
@@ -263,7 +263,7 @@ const about: About = {
             icon: "aws",
           },
         ],
-      },
+      
       {
         title: "Docker",
         tags: [
