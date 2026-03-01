@@ -28,6 +28,7 @@ export async function generateMetadata() {
 }
 
 export default function About() {
+  const aboutData = about as any;
   const structure = [
     {
       title: about.intro.title,
@@ -50,9 +51,9 @@ export default function About() {
       items: about.technical.skills.map((skill) => skill.title),
     },
     {
-      title: about.certifications?.title ?? "Certifications",
-      display: about.certifications?.display ?? false,
-      items: about.certifications?.items?.map((cert) => cert.name) ?? [],
+      title: aboutData.certifications?.title ?? "Certifications",
+      display: aboutData.certifications?.display ?? false,
+      items: aboutData.certifications?.items?.map((cert: any) => cert.name) ?? [],
     },
   ];
   return (
@@ -341,7 +342,7 @@ export default function About() {
             </>
           )}
 
-          {about.certifications?.display && (
+          {aboutData.certifications?.display && (
   <>
     <Heading
       as="h2"
@@ -354,7 +355,7 @@ export default function About() {
     </Heading>
 
     <Column fillWidth gap="l" marginBottom="40">
-      {about.certifications.items.map((cert, index) => (
+      {aboutData.certifications.items.map((cert: any, index: number) => (
         <Row
           key={`${cert.name}-${index}`}
           fillWidth
