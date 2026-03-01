@@ -206,7 +206,7 @@ const socialSharing: SocialSharingConfig = {
   platforms: {
     x: true,
     linkedin: true,
-    facebook: false,
+    facebook: true,
     pinterest: false,
     whatsapp: false,
     reddit: false,
