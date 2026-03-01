@@ -202,11 +202,13 @@ const about: About = {
     institutions: [
       {
         name: "University of Plymouth",
-        description: <>Bachelor’s degree in Computer Security 2019 - 2023</>,
+        timeframe: "2019 - 2023",
+        description: <>Bachelor’s degree in Computer Security</>,
       },
       {
         name: "Dharmapala College - Pannipitiya",
-        description: <>Advanced Level 2019</>,
+        timeframe: "2019",
+        description: <>Advanced Level</>,
       },
     ],
   },
