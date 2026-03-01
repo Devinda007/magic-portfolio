@@ -374,14 +374,14 @@ export default function About() {
           </Column>
 
           {cert.link && (
-            <Button
-              href={cert.link}
-              target="_blank"
-              label="Link"
-              variant="secondary"
-              size="s"
-            />
-          )}
+        <Button
+          href={cert.link}
+          target="_blank"
+          label="Link"
+          variant="secondary"
+          size="s"
+        />
+      )}
         </Row>
       ))}
     </Column>
