@@ -161,9 +161,7 @@ const about: About = {
         ],
         images: [],
       },
-    ],
-  },
-  {
+      {
         company: "SINGER Finance (Lanka) PLC",
         timeframe: "January 2022 - July 2022",
         role: "IT Assistant - Contract",
@@ -187,7 +185,11 @@ const about: About = {
             Work with end-users to identify and deliver the required system service levels.
           </>,
         ],
-      },
+        images: [],
+      }
+    ],
+  },
+  
   studies: {
     display: true, // set to false to hide this section
     title: "Studies",
