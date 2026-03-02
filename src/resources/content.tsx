@@ -256,7 +256,7 @@ const about: About = {
     title: "Tools And Technologies",
     skills: [
       {
-        title: "Cloud Technologies",
+        title: "Cloud Providers",
         tags: [
           {
             name: "AWS",
