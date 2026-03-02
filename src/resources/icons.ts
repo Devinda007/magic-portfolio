@@ -43,7 +43,7 @@ import {
   FcLinux,
 } from "react-icons/fc";
 
-import { FaJenkins, FaGitAlt, FaAws, FaDocker, FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
+import { FaWindows, FaJenkins, FaGitAlt, FaAws, FaDocker, FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
@@ -90,6 +90,7 @@ export const iconLibrary: Record<string, IconType> = {
   grafana: SiGrafana,
   prometheus: SiPrometheus,
   gcp: SiGooglecloud,
+  windows: FaWindows,
 };
 
 export type IconLibrary = typeof iconLibrary;
