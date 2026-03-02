@@ -60,7 +60,7 @@ const home: Home = {
         </Text>
       </Row>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "/projects/building-once-ui-a-customizable-design-system",
   },
   subline: (
     <>
