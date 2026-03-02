@@ -239,7 +239,7 @@ export interface Blog extends BasePageConfig {}
  * Work/projects page configuration.
  * @description Configuration for the Work/Projects page, including metadata and navigation label.
  */
-export interface Work extends BasePageConfig {}
+export interface Projects extends BasePageConfig {}
 
 /**
  * Gallery page configuration.
