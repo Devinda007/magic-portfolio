@@ -304,7 +304,7 @@ const about: About = {
         ],
       },
       {
-        title: "Infrastructure Monitoring",
+        title: "Grafana & Prometheus",
         tags: [
           {
             name: "Grafana",
