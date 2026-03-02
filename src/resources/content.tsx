@@ -359,7 +359,7 @@ const blog: Blog = {
   // All posts will be listed on the /blog route
 };
 
-const projects: Projects = {
+const work: Work = {
   path: "/projects",
   label: "Projects",
   title: `Projects – ${person.name}`,
