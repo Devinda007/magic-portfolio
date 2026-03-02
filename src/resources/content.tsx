@@ -1,4 +1,4 @@
-import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
+import { About, Blog, Gallery, Home, Newsletter, Person, Social, Projects } from "@/types";
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
@@ -359,7 +359,7 @@ const blog: Blog = {
   // All posts will be listed on the /blog route
 };
 
-const projects: Work = {
+const projects: Projects = {
   path: "/projects",
   label: "Projects",
   title: `Projects – ${person.name}`,
