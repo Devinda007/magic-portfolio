@@ -89,7 +89,7 @@ export const iconLibrary: Record<string, IconType> = {
   git: FaGitAlt,
   grafana: SiGrafana,
   prometheus: SiPrometheus,
-  gcp: SiGooglecloud,
+  GCP: SiGooglecloud,
 };
 
 export type IconLibrary = typeof iconLibrary;
