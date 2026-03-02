@@ -256,20 +256,21 @@ const about: About = {
     title: "Tools And Technologies",
     skills: [
       {
-        title: "Cloud Technologies",
+        title: "AWS",
         tags: [
           {
             name: "AWS",
             icon: "aws",
           },
+        ],
+      },
+      {
+        title: "Azure",
+        tags: [
           {
             name: "Azure",
             icon: "azure",
           },
-          {
-            name: "GCP",
-            icon: "gcp",
-          }
         ],
       },
       {
