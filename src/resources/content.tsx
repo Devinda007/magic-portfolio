@@ -291,15 +291,11 @@ const about: About = {
         ],
       },
       {
-        title: "Version Controlling Tools",
+        title: "Git",
         tags: [
           {
             name: "Git",
             icon: "git",
-          },
-          {
-            name: "GitHub",
-            icon: "github",
           },
         ],
       },
