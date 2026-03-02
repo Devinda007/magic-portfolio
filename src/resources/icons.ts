@@ -32,7 +32,6 @@ import {
   SiAnsible,
   SiGrafana,
   SiPrometheus,
-  SiGooglecloud,
 } from "react-icons/si";
 
 import {
@@ -89,7 +88,6 @@ export const iconLibrary: Record<string, IconType> = {
   git: FaGitAlt,
   grafana: SiGrafana,
   prometheus: SiPrometheus,
-  GCP: SiGooglecloud,
 };
 
 export type IconLibrary = typeof iconLibrary;
