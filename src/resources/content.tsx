@@ -256,29 +256,32 @@ const about: About = {
     title: "Tools And Technologies",
     skills: [
       {
-        title: "AWS",
+        title: "Cloud Providers",
         tags: [
           {
             name: "AWS",
             icon: "aws",
           },
-        ],
-      },
-      {
-        title: "Azure",
-        tags: [
           {
             name: "Azure",
             icon: "azure",
           },
+          {
+            name: "GCP",
+            icon: "gcp",
+          },
         ],
       },
       {
-        title: "Linux",
+        title: "OS Administration",
         tags: [
           {
             name: "Linux",
             icon: "linux",
+          },
+          {
+            name: "Windows Server",
+            icon: "windows",
           },
         ],
       },
@@ -310,6 +313,10 @@ const about: About = {
           {
             name: "Prometheus",
             icon: "prometheus",
+          },
+          {
+            name: "Nagios",
+            icon: "nagios",
           },
         ],
       },
