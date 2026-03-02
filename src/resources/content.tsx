@@ -311,6 +311,10 @@ const about: About = {
             name: "Prometheus",
             icon: "prometheus",
           },
+          {
+            name: "Nagios",
+            icon: "nagios",
+          },
         ],
       },
       {
