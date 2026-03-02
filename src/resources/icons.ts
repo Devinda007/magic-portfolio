@@ -60,7 +60,7 @@ export const iconLibrary: Record<string, IconType> = {
   discord: FaDiscord,
   eye: HiOutlineEye,
   eyeOff: HiOutlineEyeSlash,
-  GitHub: FaGithub,
+  github: FaGithub,
   linkedin: FaLinkedin,
   x: FaX,
   twitter: FaXTwitter,
