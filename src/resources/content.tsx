@@ -105,9 +105,9 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        role: "Associate Systems Engineer",
-        timeframe: "December 2023 - Present",
         company: "Textware Pvt Ltd",
+        timeframe: "December 2023 - Present",
+        role: "Associate Systems Engineer",
         achievements: [
           <>
             Linux Server monitoring, configuring, upgrading and administration.
@@ -143,9 +143,9 @@ const about: About = {
         ],
       },
       {
-        role: "Trainee Cloud Engineer",
-        timeframe: "October 2022 - March 2023",
         company: "Finetech Consultancy Pvt Ltd",
+        timeframe: "October 2022 - March 2023",
+        role: "Trainee Cloud Engineer",
         achievements: [
           <>
             Collaborated with Sales Engineers to ensure client objectives were met through accurate
@@ -168,9 +168,9 @@ const about: About = {
         images: [],
       },
       {
-        role: "IT Assistant - Contract",
-        timeframe: "January 2022 - July 2022",
         company: "SINGER Finance (Lanka) PLC",
+        timeframe: "January 2022 - July 2022",
+        role: "IT Assistant - Contract",
         achievements: [
           <>
             Windows server and Microsoft Active Directory administration.
