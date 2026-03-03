@@ -33,7 +33,7 @@ function getMDXFiles(dir: string) {
 
 function readMDXFile(filePath: string) {
   if (!fs.existsSync(filePath)) {
-    notFound();
+    return null;
   }
 
   const rawContent = fs.readFileSync(filePath, "utf-8");
